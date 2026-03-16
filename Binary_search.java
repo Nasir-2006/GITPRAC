@@ -1,7 +1,8 @@
 import java.util.Scanner;
 public class Binary_search {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number of Elements:");
         int num = sc.nextInt();
@@ -12,6 +13,7 @@ public class Binary_search {
             arr[i] = sc.nextInt();
         }
         System.out.println("Numbers with EVEN Digits: "+NOD(arr));
+        sc.close();
     }
     static int NOD(int[] arr)
     {
