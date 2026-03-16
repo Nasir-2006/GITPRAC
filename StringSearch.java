@@ -8,7 +8,7 @@ public class StringSearch {
         char target = sc.next().charAt(0);
         boolean res = search(line, target);
         System.out.println(res);
-
+        sc.close();
     }
     static boolean search(String str,char target)
     {

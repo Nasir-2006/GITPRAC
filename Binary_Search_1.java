@@ -15,6 +15,7 @@ public class Binary_Search_1 {
        int target = sc.nextInt();
       int res = BS1(arr,target);
       System.out.println(res);
+      sc.close();
     }
     static int BS1(int[] arr,int target)
     {

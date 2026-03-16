@@ -35,5 +35,6 @@ public class search_2D_array {
         int target = sc.nextInt();
         boolean res = search(arr,target);
         System.out.println(res);
+        sc.close();
     }
 }
